@@ -15,14 +15,18 @@
         <button id=drag class="controlButton">drag</button>
         <button id=start class="controlButton">start</button>
         <button id=clean class="controlButton">clear</button>
-
         <input type="range" min="10" max="100" value="30" id="slider" class="controlButton">
+
+        <input id="file-input" name="name" style="display: none;" type="file"/>
+        <button class="controlButton" id="open">Open</button>
+        <button class="controlButton" id="save">Save</button>
     </nav>
 
     <script src="nav.js" type="module"></script>
     <script src="gof.js"></script>
     <script src="drag.js"></script>
     <script src="edit.js"></script>
+    <script src="IO.js"></script>
 
     <script type="module" src="./modules/interval.js"></script>
 </body>
